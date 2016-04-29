@@ -1,4 +1,6 @@
-/*orange - f36f21 */
+/*orange - f36f21 
+f8ae82
+*/
 
 body{
   font-family: 'karla', sans-serif;
@@ -15,6 +17,13 @@ body{
 
 .navbar-inverse .navbar-nav > li > a {
     color: #f36f21;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: #f8ae82;
+
+  background-color: transparent;
 }
 
 .cbp-af-header-shrink{
