@@ -8,11 +8,24 @@ body{
  /*padding-top:85px;*/
 }
 
-.navbar{
+.navbar {
     margin-bottom: 0px;
     padding: 30px 15px;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
+}
+
+@media (max-width: 400px) {
+    .navbar-header {
+        position: relative;
+    }
+    .navbar img {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        width: 70%;
+    }
 }
 
 .navbar-inverse .navbar-nav > li > a {
